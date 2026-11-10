@@ -1,8 +1,8 @@
 class Proof < Formula
   desc "Prove iOS changes work: condensed builds, simulator control, stacked-PR tests"
   homepage "https://carloshmartins.github.io/proof"
-  url "https://github.com/carloshmartins/proof/archive/refs/tags/0.2.0.tar.gz"
-  sha256 "16a487a0fd073706533ffd5893ee4cb0d432d9a7bd68425da8483eabda5a1408"
+  url "https://github.com/carloshmartins/proof/archive/refs/tags/0.3.0.tar.gz"
+  sha256 "6db93c2b6002238a0b04c8f11334aa84a5caa9ada189e5908354e1e1b5cdc7e5"
   license "Apache-2.0"
   head "https://github.com/carloshmartins/proof.git", branch: "main"
 
