@@ -12,13 +12,11 @@ class ProofBeta < Formula
     token
   end
 
-  url "https://api.github.com/repos/carloshmartins/proof-beta/releases/assets/748638664",
+  url "https://api.github.com/repos/carloshmartins/proof-beta/releases/assets/748640162",
       headers: ["Accept: application/octet-stream", "Authorization: Bearer #{github_token}"]
   sha256 "a450b81b9a96df7719d01be9071ed2b09c379f0842626e2c6a9b21a3a6e3e29d"
 
   depends_on :macos
-
-  conflicts_with "proof", because: "both install a `proof` binary"
 
   def install
     bin.install "proof"
